@@ -18,12 +18,31 @@
 			<li class="cl2"><a href="#Home">Home</a></li>
 		</ul>
 	  </div>
-	  <div class="vdo">
+	  <div class="slide">
 		  <center>
 				<h1># Live the moment</h1>
-				<video width="100%" height="100%" controls loop autoplay muted >
-						<source src="C:\Users\dy794\Documents\Class_Assignment\ImagesForWebPage\video.mp4" type="video/mp4">
-					  </video>
+				<img name="image" src="img4.jpg" alt="sc" height="100%" width="100%">
+				<script>
+			            var i=0;
+			            var time=4000;
+			            var images=[];
+			            images[0]="img.jpg";
+			            images[1]="img1.jpg";
+			            images[2]="img2.jpg";
+
+			            setInterval("slides()",time);
+
+			           function slides(){
+
+			               document.image.src=images[i];
+			               i++;
+			               if(i>2)
+			               i=0;
+			             }
+
+			           window.load=slides;
+
+			        </script>
 					  <p class="pr">Keeping in view the importance of sports in today’s scientific era and its vitality in the shaping of individual’s personality and health and fitness, the institute lays considerable emphasis on students participation in various games, sports and track and field activities. The spacious grounds of the institute are laid out into playfields for Cricket, Hockey, Football, Basketball, Volleyball, Lawn Tennis and Badminton etc. Facilities have also been provided for Yoga, Weightlifting, Wrestling and Kabaddi. A Gymnasium hall equipped with all modern scientific machines like Multi-exerciser, a swimming Pool and two Squash Courts are available for the use of students. The Institute organizes rowing activity with the help of Chandigarh Sports Department and Chandigarh Rowing Association at rowing centre,
 						   Sukhna Lake. Hiking and Trekking activity is also undertaken by the students.</p>
 			</center>

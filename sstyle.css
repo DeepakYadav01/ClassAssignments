@@ -6,7 +6,7 @@ body {
   font-size: large;
   color: white;
 }
-.vdo{
+.slide{
   border: 50px solid  rgb(202, 202, 84);
   background-color: rgb(8, 8, 8);
   padding :30px;
@@ -17,7 +17,7 @@ h1{
   color:white;
 }
 ul li a{
-    
+
   float:right;
   font-size: large;
 }
@@ -51,7 +51,7 @@ ul li a{
   font-size: xxx-large;
   font-family: Gill Sans, sans-serif;
   font-weight: 900;
- 
+
 }
 .cl4{
   background-color:rgb(15, 15, 15) ;
@@ -76,11 +76,11 @@ ul li a{
 }
 p{
   text-align: center;
-  padding:30px 
+  padding:30px
 }
 .cl8{
   background-color: rgb(102, 230, 217);
-  
+
 }
  .cl8 tr td:hover {
   background-color:rgb(4, 5, 61);
@@ -130,13 +130,3 @@ button:hover {
 .container {
   padding: 16px;
 }
-
-
-
-
-
-
-
-
-
-
